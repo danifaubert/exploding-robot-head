@@ -16,14 +16,14 @@ body {
 .banner {
   background-color: #2b3851;
   justify-content: center;
-  bottom: 100px;
+  height: 240px;
 }
 
 .robot {
   width: 320px;
   position: relative;
-  align-content: center;
-  top: 8px;
+  top: 55px;
+  margin: 0 auto;
 }
 
 .robot-body {
@@ -34,7 +34,10 @@ body {
   width: 46px;
   position: absolute;
   left: 140px;
-  top: 30px;
+}
+
+.robot-brain:hover {
+  bottom: 130px;
 }
 
 .robot-head-right,
@@ -45,9 +48,17 @@ body {
 }
 
 .robot-head-right {
-  left: 160px;
+  right: 35px;
 }
 
 .robot-head-left {
   left: 35px;
+}
+
+.robot-head-left:hover {
+  left: 1px;
+}
+
+.robot-head-right:hover {
+  right: 1px;
 }
