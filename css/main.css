@@ -36,10 +36,6 @@ body {
   left: 140px;
 }
 
-.robot-brain:hover {
-  bottom: 130px;
-}
-
 .robot-head-right,
 .robot-head-left {
   width: 125px;
@@ -55,10 +51,16 @@ body {
   left: 35px;
 }
 
-.robot-head-left:hover {
+.robot:hover .robot-head-left {
   left: 1px;
+  bottom: 70px;
 }
 
-.robot-head-right:hover {
+.robot:hover .robot-head-right {
   right: 1px;
+  bottom: 70px;
+}
+
+.robot:hover .robot-brain {
+  bottom: 100px;
 }
